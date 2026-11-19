@@ -12,6 +12,8 @@ private:
   };
 
   State state;
+  unsigned long lastSentAt;
+  int signalValue;
 };
 
 #endif
